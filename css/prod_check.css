@@ -1,0 +1,17 @@
+@import url(common.css);
+
+
+.content{width:96%;margin:30px auto;}
+.content-body table{width:100%;background: white;border-top-left-radius:10px;border-top-right-radius:10px;border-collapse:collapse;}
+.content-body table th{height:40px;background:#75808E;line-height: 40px;color:white;bor der-top-left-radius:10px;bor der-top-right-radius:10px;border:0;}
+.content-body table td{height:40px;line-height: 40px;text-align:center;}
+.content-body table td.lasttd{width:25%;color:#FF0606;}
+.content-body table td.color{color:#009900}
+.content-body table tr.trbg{background:#F3F8FB;}
+.content-body table td.handle{width:30%;}
+.content-body table td.handle a{color:white;padding:3px 10px;border-radius:4px;margin-right:6px;font-size:12px;}
+.content-body table td.handle a.show{background:#75808E;}
+.content-body table td.handle a.reply{background:#C5A36B;}
+.content-body table td.handle a.delete{background:#EF0101;}
+.number{height:83px;line-height: 83px;background:#DFDFDF;text-align:center;color:#B1B1BE;}
+.number span{padding:0 10px;color:#656576;}

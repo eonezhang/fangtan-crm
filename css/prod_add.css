@@ -1,0 +1,38 @@
+@import url(common.css);
+
+input,textarea,select{outline:none;}
+.content{width:96%;margin:30px auto;hei ght: 1140px;}
+.content form span{color:white;font-size:14px;}
+.content form input{padding-left:5px;}
+.content form .li1{height:66px;background: white;text-align:center;line-height: 66px;}
+.content form .li1 input{width:70%;height:12px;line-height: 12px;border:1px solid #75808E;float:left;margin-top:13px;padding-top:12px;padding-bottom:12px;}
+.content form .li1 span{background: #95A0AA;width:106px;height:38px;line-height:38px;border-left:3px solid #5BE6FD;float:left;margin-left:8%;margin-top:13px;}
+.content form .li2{heig ht:60px;background: #F6F7FC;line-height: 60px;}
+.content form .li2 span{background: #95A0AA;border-left:3px solid #5BE6FD;margin-left:8%;padding:8.5px 25.5px;}
+.content form .li2 input{margin-left:10px;height:12px;line-height:12px;padding-top:11px;padding-bottom:11px;}
+.content form .li2 input.radio{padding-left:0;}
+.content form .li2 input.input-md{width:165px;height:12px;line-height: 12px;border:1px solid #75808E;margin-right:5px;}
+.content form .li2 input.inbg{background: #E7E7E7;}
+
+.content form .li3{height:100px;background: white;text-align:center;line-height: 100px;}
+.content form .li3 .input-lg{width:70%;height:75px;border:1px solid #75808E;float:left;margin-top:10px;padding-left:5px;padding-top:5px;}
+.content form .li3 span{background: #95A0AA;width:106px;height:82px;line-height:82px;border-left:3px solid #5BE6FD;float:left;margin-left:8%;margin-top:10px;}
+.li4{background: #F6F7FC;height:200px;width:100%;text-align:center;}
+.li4 span{background: #95A0AA;width:106px;height:200px;line-height:200px;border-left:3px solid #5BE6FD;margin-left:8%;}
+.li4>ul>li{height:50px;line-height: 50px;padding-left:10px;}
+.li4>ul>li>input{height:12px;padding:12px 0;width:202px;margin-left:10px;border:1px solid #75808E;padding-left:5px;}
+#nature{width:209px;padding:10px 0;height:38px;line-height: 38px;margin-left:10px;border:1px solid #75808E;}
+#nature option{height:20px;line-height: 20px;padding-left:0;}
+
+.content form .li5{height:130px;background: white;text-align:center;}
+.content form .li5 .input-lg{width:70%;height:107px;border:1px solid #75808E;float:left;margin-top:10px;padding-left:5px;padding-top:5px;}
+.content form .li5 span{background: #95A0AA;width:106px;height:114px;line- height:114px;border-left:3px solid #5BE6FD;float:left;margin-left:8%;margin-top:10px;}
+.content form .li5 span p{height:30px;padding-top:10px;line-height: 30px;}
+#li6{background: #F6F7FC;height:130px;text-align:center;}
+.li7{height:320px;background: white;text-align:center;padding-top:20px;}
+.content form .li7 span{background: #95A0AA;width:106px;height:280px;border-left:3px solid #5BE6FD;margin-left:8%;}
+.content form .li7 span p{padding-top:80px;line-height: 30px;}
+.bottombtn{height:83px;background:#DFDFDF;text-align:center;line-height: 83px;}
+.bottombtn input{width: 270px;height:40px;background: #4A4A57;border-radius:5px;color:white;font-size:14px;font-weight:bold;letter-spacing:5px;}
+/*.content form .li1 div{width:830px;}*/
+

@@ -1,0 +1,92 @@
+/*common*/
+*{margin:0;padding:0;}
+img,input{border:0;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none;}
+body{font-size: 12px;font-family: "微软雅黑";}
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both;}
+html,body{height:100%;}
+
+.top{width: 100%;height: 35%;background: #1F1F23;text-align: center;position: relative;}
+.top img{width:395px;margin:0 auto;height:auto;position:absolute;left:50%;margin-left:-200px;bottom:20px;}
+.middle{height:55%;background: url(../images/login/bg.gif) repeat-x left bottom;background-color: #28282E;}
+.middle form{width: 370px;margin: auto;color: #C5A36B;padding-top:20px;}
+.middle form .user,.middle form .pass{height:36px;line-height:36px;margin-bottom:20px;}
+.middle form .user input,.middle form .pass input{margin-left:20px;display:block;float:left;}
+.middle form .user span,.middle form .pass span{display: block;float:left;}
+.middle form input{width: 285px;height:36px;border:1px solid #C5A36B;background: none;margin-bottom: 20px;color: #C5A36B;padding-left:5px;line-height: 36px\9;}
+.middle form span.password{margin-right: 42px;}
+
+.middle form div.checkboxFive {/*background: url(../images/login/icon.png) no-repeat 54px 0;*/padd ing-left:80px;margin-bottom:20px;height:25px;line-height: 25px\9;/*width:205px;*/}
+#loginbtn{width: 290px;cursor:pointer;height:45px;background: url(../images/login/loginbg.png) no-repeat;text-align:center;margin-left: 54px;color: #805831;font:18px/45px "微软雅黑";padding-left:0px;border:none;outline:none;}
+.bottom{background-color:#1F1F23;width:100%;height:10%;line- height: 10%;position:relative;}
+
+.bottom p{width:180px;margin:auto;color: #494957;position:absolute;left:50%; top:20%;font-size:14px;margin-left:-90px;}
+.bottom p span{padding-left: 20px;}
+
+
+/*checkbox修改时间：2015年6月23日 10:21:25*/
+.checkboxFive {
+   /* width: 25px;*/
+    /*margin: 20px 100px;*/
+    position: relative;
+}
+.checkboxFive p{position:absolute;left:90px;top:5px;}
+.checkboxFive label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 56px;
+    background: #28282E;
+    border:1px solid #DEC588;
+}
+
+.checkboxFive label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 7px;
+    border: 2px solid #DDC587;
+    border-top: none;
+    border-right: none;
+ 
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/**
+ * Create the hover event of the tick
+ */
+.checkboxFive label:hover::after {
+    opacity: 0.5;
+}
+ 
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+.checkboxFive input[type=checkbox]{background:transparent;border:none;width:0;height:0;}
+
+
+
+
+
+
+
+
+
+
+
